@@ -2,7 +2,7 @@
 
 ## Description
 
-This project uses the Bootstrap CSS framework to create website showing my design portfolio.
+This project uses the Bootstrap CSS framework to create  a website showing my design portfolio.
 
 ## Deployed site
 
