@@ -1,0 +1,58 @@
+/*Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* Body BG */
+body {
+    background: #006DAA;
+    font-family: Rubik, sans-serif;
+}
+
+/* Navbar */
+nav.bg {
+	border-bottom: 2px dashed #061A40;
+	background-color: #0353A4;
+}
+
+nav a.navbar-brand {
+	font-family: Rubik, sans-serif;
+    background-color: #005dbb;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* About Me Section */
+main p{
+	font-size: 20px;
+}
+
+/* social media icons */
+a i {
+	font-size: 50px;
+	color: #B9D6F2;
+}
+
+a i:hover {
+    opacity: 0.75;
+}
+
+/* container color */
+div.about-me,
+div.portfolio,
+div.contact {
+	background-color: #B9D6F2;
+}
+
+/* name overlay for portfolio items */
+div.portfolio-item h2 {
+	position: relative;
+	top: 75%;
+	margin-top: -25px;
+	background-color: #B9D6F2;
+}
+
+/* Footer */
+footer.footer {
+	background-color:#061A40;
+}
