@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!-- Portfolio Style -->
+    <!-- Portfolio Styles -->
     <link rel="stylesheet" href="./assets/style.css">
 
     <!-- Font Awesome Import -->
     <script src="https://kit.fontawesome.com/fdf8c977f5.js" crossorigin="anonymous"></script>
 
-    <title>Dwayne Risley</title>
+    <title>Contact - Dwayne Risley</title>
 </head>
 
 <body class="d-flex flex-column h-100">
-    <header>
-        <!--Navigation -->
-        <nav class="navbar fixed-top py-0  navbar-expand-sm navbar-light bg shadow-sm">
 
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar fixed-top py-0 navbar-expand-sm navbar-light bg shadow-sm">
             <a class="navbar-brand text-light p-3 ml-4" href="./index.html">Dwayne Risley</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,42 +30,47 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class=" text-light nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="./index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
-
+        
     </header>
+
 
     <!-- Main Content -->
     <main class="flex-shrink-0">
-        <article class="pt-5">
-            <div class="container rounded shadow-lg about-me p-4 mt-5">
-                <h1 class="mt-2">About Me</h1>
+        <section class="pt-5">
+            <div class="container rounded shadow-lg contact p-4 mt-4">
+                <h1 class="mt-4">Contact</h1>
                 <hr />
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="./assets/images/headshot.jpg" class=" mr-4 mb-2 py-2 px-2 img-thumbnail float-left"
-                            alt="headshot">
+
+                <form>
+                    <div class="form-group">
+                        <label for="contactName">Name</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="John Doe">
                     </div>
-                    <div class="col-md-8">
-                        <p> Full-stack developer in the making. In all of my positions past and present, I am
-                            "Johnny-on-the-spot" as I quickly
-                            become useful in many roles and in fulfilling many invaluable tasks.
-                        </p>
+                    <div class="form-group">
+                        <label for="contactEmail">Email address</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="example@gmail.com">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="contactMsg">Message</label>
+                        <textarea class="form-control" id="contactMsg" rows="5"></textarea>
+                    </div>
+                    <button type="submit" id ="submitButton" class="btn btn-secondary">Submit</button>
+                </form>
             </div>
-        </article>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -88,8 +93,7 @@
         </div>
     </footer>
 
-
-    <!-- Bootstrap JS -->
+    <!-- Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

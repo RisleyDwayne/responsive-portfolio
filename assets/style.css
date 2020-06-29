@@ -52,6 +52,10 @@ div.portfolio-item h2 {
 	background-color: #B9D6F2;
 }
 
+#submitButton{
+	background-color: #0353A4;
+}
+
 /* Footer */
 footer.footer {
 	background-color:#061A40;
